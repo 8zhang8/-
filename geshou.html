@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>张金</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+		window.onload=function(){
+			var ele=document.querySelector("#picform>.form");
+			var length=ele.querySelectorAll("div").length;
+			var pic=function(offset){
+				ele.style.marginLeft=(-offset*100)+"%";
+				setTimeout(function(){
+					pic((offset+1)%length);
+				},3000);
+			};
+			pic(0);
+		};
+		
+    
+	</script>
+</head>
+
+<body>
+<div id="main2">
+<div id="header">
+<h1>米米音乐</h1>
+</div>
+<div id="nav"> 
+<ul>
+<li><a href="shouye.html">首页</a></li>
+<li><a href="geshou.html">歌手</a></li>
+<li><a href="gedan.html">歌单</a></li>
+<li><a href="zhuanji.html">专辑</a></li>
+<li><a href="mv.html">mv</a></li>
+<li><a href="liuyan.html">留言</a></li>
+<li><a href="lianxi.html">联系我们</a></li>
+<li><a href="denglu.html">登录</a></li>
+</ul>
+</ul>
+  
+
+<div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="搜索音乐、歌手、MV..."><input type="submit" value="搜索">
+            </form>
+        </div>
+
+<div id="geshou">
+<div id="zhaopian"><img src="images/xzq.jpg"></div>
+<div id="mingzi">薛之谦</div>
+<div id="mz">外文名：Joker<br /> 国籍：中国 <br />出生地：上海<br /> 职业：歌手、演员、主持人 <br />代表作品：《认真的雪》《演员》《丑八怪》</div>
+<div id="rmgq">热门歌曲</div>
+<div id="table">
+<div id="form1"><div id="f1">歌曲</div><div id="f2">专辑</div><div id="f3">时长</div></div>
+<div id="form"><div id="f1"> 肆无忌惮</div><div id="f2">肆无忌惮</div><div id="f3"> 04:19</div></div>
+<div id="form1"> <div id="f1">哑巴 </div><div id="f2">哑巴</div><div id="f3"> 04:21</div></div>
+<div id="form"> <div id="f1"> 醒来</div><div id="f2">无限歌谣季 </div><div id="f3">  04:17</div></div>
+<div id="form1"> <div id="f1"> 那是你离开了北京的生活 </div><div id="f2"> 那是你离开了北京的生活</div><div id="f3">04:28</div></div>
+<div id="form">  <div id="f1">摩天大楼</div><div id="f2">摩天大楼 </div><div id="f3"> 04：03</div></div>
+<div id="form1">  <div id="f1"> 狐狸 </div><div id="f2">狐狸</div><div id="f3">03:41</div></div>
+<div id="form"><div id="f1">刚刚好</div><div id="f2">初学者</div><div id="f3">04:10</div></div>
+<div id="form1">  <div id="f1"> 演员</div><div id="f2">绅士</div><div id="f3">04:21</div></div>
+<div id="form"> <div id="f1">暧昧</div><div id="f2">渡 The Crossing</div><div id="f3"> 05:19</div></div>
+<div id="form1"> <div id="f1">  丑八怪</div><div id="f2">意外</div><div id="f3"> 0:12</div></div>
+<div id="form">  <div id="f1"> 绅士 </div><div id="f2">绅士</div><div id="f3">05:20</div></div>
+<div id="form1"> <div id="f1">  你还要我怎样</div><div id="f2">意外</div><div id="f3"> 05:11</div></div>
+<div id="form">  <div id="f1"> 一半</div><div id="f2">一半</div><div id="f3">04:46</div></div>
+<div id="form1"> <div id="f1">  未完成的歌</div><div id="f2">  未完成的歌</div><div id="f3"> 04:20</div></div>
+</div>
+</div>
+<div id="xsgs">
+ <p>相似歌手</p>
+ <div id="gs1"><img src="images/hcy.jpg"><div id="mx">华晨宇</div></div>
+ <div id="gs2"><img src="images/lrh.jpg"><div id="mx">李荣浩</div></div>
+ <div id="gs3"><img src="images/wyf.jpg"><div id="mx">吴亦凡</div></div>
+ <div id="gs4"><img src="images/zj.jpg"><div id="mx">张杰</div></div>
+</div>
+<div id="footer1">
+米米音乐网
+</div>
+</div>
+</body>
+</html>

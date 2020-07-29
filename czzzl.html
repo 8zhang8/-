@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>张金</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+		window.onload=function(){
+			var ele=document.querySelector("#picform>.form");
+			var length=ele.querySelectorAll("div").length;
+			var pic=function(offset){
+				ele.style.marginLeft=(-offset*100)+"%";
+				setTimeout(function(){
+					pic((offset+1)%length);
+				},3000);
+			};
+			pic(0);
+		};
+		
+   
+	</script>
+</head>
+
+<body>
+<div id="main1">
+<div id="header">
+<h1>米米音乐</h1>
+</div>
+<div id="nav">
+  
+<ul>
+<li><a href="shouye.html">首页</a></li>
+<li><a href="geshou.html">歌手</a></li>
+<li><a href="gedan.html">歌单</a></li>
+<li><a href="zhuanji.html">专辑</a></li>
+<li><a href="mv.html">mv</a></li>
+<li><a href="liuyan.html">留言</a></li>
+<li><a href="lianxi.html">联系我们</a></li>
+<li><a href="denglu.html">登录</a></li>
+</ul>
+</ul>
+  
+
+<div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="搜索音乐、歌手、MV..."><input type="submit" value="搜索">
+            </form>
+        </div>
+
+</div>
+
+
+<div id="xxnr1">
+<img src="images/czzzl.jpg">
+<h1>成长之重量 (《动物世界》电影成长版片尾曲) - 李荣浩</h1>
+<h2>歌曲原唱：李荣浩 &nbsp &nbsp &nbsp &nbsp填词：李荣浩 &nbsp &nbsp &nbsp &nbsp编曲：李荣浩</h2>
+<h3><a  href="song/成长之重量.mp3">点击这里，播放音乐</a></h3>
+<p>天亮了还是睡不安想了很久 妈妈讲要经过大川 翻几座山 要不平凡 好像很难 有时候被俗人批判 很难接受 有时候朋友背后说 我像小丑 假装路过 
+一笑而过 算了忘了淡了这些吧 又没什么好怕 这不就是我吗 难道认了怂了说了那些话 只为了讨好他 那不就错了吗 好了好了好了这样吧 天也就那么大 我又不是不敢
+闯荡几年大不了哭个几晚 成长之重量 无法计算 太多难忘 这条路好长 去的地方 有诗和理想 昨天留下的一滩 泪和汗 造就现在的我越倔强越勇敢
+成长之重量 丢了狂妄 学会承担 故事的反转 别太简单 我要成就感 不就是一场激烈的流浪嘛 解开身上的衬衫 迎着夕阳 迎着夕阳 有时候被俗人批判 很难接受
+有时候朋友背后说 我像小丑 假装路过 一笑而过 算了忘了淡了这些吧 又没什么好怕 这不就是我吗 难道认了怂了说了那些话 只为了讨好他 那不就错了吗
+好了好了好了这样吧 天也就那么大 我又不是不敢 闯荡几年大不了哭个几晚 成长之重量 无法计算 太多难忘 这条路好长 去的地方 有诗和理想 昨天留下的一滩
+泪和汗 造就现在的我 越倔强越勇敢</p>
+</div>
+<!--猜你喜欢-->
+<div id="cnxh">
+<div id="phb"><h1>猜你喜欢</h1></div>
+<div id="aa1">
+<img src="images/xh1.png">
+<div id="z"> <a href="gedan.html">Something New</a></div>
+<div id="y">  <a href="gedan.html">太研</a></div>
+</div>
+<div id="a1">
+<img src="images/xh2.png">
+<div id="z"><a href="gedan.html">SQUARE UP</a></div>
+<div id="y"> <a href="gedan.html">BLACKPINK</a></div>
+</div>
+<div id="a1">
+<img src="images/xh3.png">
+<div id="z"><a href="gedan.html">Liberation</a></div>
+<div id="y"> <a href="gedan.html">Christina Aguilera</a></div>
+</div>
+<div id="a1">
+<img src="images/xh4.png">
+<div id="z"><a href="gedan.html">上海女子图鉴 </a></div>
+<div id="y"> <a href="gedan.html">原声带</a></div>
+</div>
+<div id="a1">
+<img src="images/xh5.png">
+<div id="z"><a href="gedan.html">我们在中场相遇</a></div>
+<div id="y"><a href="gedan.html">莫文蔚</a></div>
+</div>
+</div>
+
+<div id="footer">
+米米音乐网
+</div>
+</div>
+</body>
+</html>

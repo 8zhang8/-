@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>张金</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+		window.onload=function(){
+			var ele=document.querySelector("#picform>.form");
+			var length=ele.querySelectorAll("div").length;
+			var pic=function(offset){
+				ele.style.marginLeft=(-offset*100)+"%";
+				setTimeout(function(){
+					pic((offset+1)%length);
+				},3000);
+			};
+			pic(0);
+		};
+		
+    
+	</script>
+</head>
+
+<body>
+<div id="main">
+<div id="header">
+<h1>米米音乐</h1>
+</div>
+<div id="nav"> 
+<ul>
+<li><a href="shouye.html">首页</a></li>
+<li><a href="geshou.html">歌手</a></li>
+<li><a href="gedan.html">歌单</a></li>
+<li><a href="zhuanji.html">专辑</a></li>
+<li><a href="mv.html">mv</a></li>
+<li><a href="liuyan.html">留言</a></li>
+<li><a href="lianxi.html">联系我们</a></li>
+<li><a href="denglu.html">登录</a></li>
+</ul>
+</ul>
+
+<div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="搜索音乐、歌手、MV..."><input type="submit" value="搜索">
+            </form>
+        </div>
+
+				
+</div>
+<div id="pic">
+
+            <div id="picform">
+		<div class="form">
+			<div><img src="images/2.jpg"></div>
+			<div><img src="images/1.jpg"></div>
+			<div><img src="images/4.jpg"></div>
+			<div><img src="images/3.jpg"></div>
+			
+		</div>
+	</div>
+
+
+</div>
+<div id="middle">
+<div >
+<!--米米歌单-->
+<div id="mmgd">
+<div id="phb">
+<h1>米米歌单</h1></div>
+<div id="aa1">
+<img src="images/a.jpg">
+<div id="z"> <a href="czzzl.html">追赶时间</a></div>
+<div id="y"> <a href="czzzl.html">牛奶咖啡</a></div>
+</div>
+<div id="a1">
+<img src="images/b.jpg">
+<div id="z"><a href="czzzl.html">亲爱的活祖宗 </a></div>
+<div id="y"> <a href="czzzl.html">华语群星</a></div>
+</div>
+<div id="a1">
+<img src="images/c.jpg">
+<div id="z"><a href="czzzl.html">用心抵达</a></div>
+<div id="y"> <a href="czzzl.html">贺一航</a></div>
+</div>
+<div id="a1">
+<img src="images/d.jpg">
+<div id="z"><a href="czzzl.html">常态</a></div>
+<div id="y"> <a href="czzzl.html">权振东</a></div>
+</div>
+<div id="a1">
+<img src="images/f.jpg">
+<div id="z"><a href="czzzl.html">曾经的少年</a></div>
+<div id="y"> <a href="czzzl.html">徐一鸣</a></div>
+</div>
+</div>
+<!--精彩推荐-->
+<div id="jctj">
+<div id="phb"><h1>精彩推荐</h1></div> 
+<div id="tj1">
+<div id="c"><img src="images/b1.jpg"></div>
+<div id="d"><a href="czzzl.html">边走边爱</a><div id="e"><a href="czzzl.html">冯提莫</a></div><div id="f">03:40</div></div>
+</div>
+<div id="tj2">
+<div id="c"><img src="images/b2.jpg"></div>
+<div id="d"><a href="czzzl.html">摩天轮的眼泪</a><div id="e"><a href="czzzl.html">创造101</a></div><div id="f">03:58</div></div>
+</div>
+<div id="tj3">
+<div id="c"><img src="images/b3.jpg"></div>
+<div id="d"><a href="czzzl.html">亲爱的游戏</a><div id="e"><a href="czzzl.html">何洁</a></div><div id="f">04:24</div></div>
+</div>
+<div id="tj4">
+<div id="c"><img src="images/b4.jpg"></div>
+<div id="d"><a href="czzzl.html">幸福一家人</a><div id="e"><a href="czzzl.html">张磊</a></div><div id="f">03:15</div></div>
+</div>
+
+<div id="tj5">
+<div id="c"><img src="images/b5.jpg"></div>
+<div id="d"><a href="czzzl.html">如约而至</a><div id="e"><a href="czzzl.html">许嵩</a></div><div id="f">04:15</div></div>
+</div>
+<div id="tj6">
+<div id="c"><img src="images/b6.jpg"></div>
+<div id="d"><a href="czzzl.html">一分钟</a><div id="e"><a href="czzzl.html">宋佳</a></div><div id="f">04:09</div></div>
+</div>
+
+</div>
+
+</div>
+<div id="phb">
+<h1>排行榜</h1>
+</div>
+<div id="b1">
+<div id="ziti">巅峰榜</div>
+<div id="zt">流行指数</div>
+1  成长之重量</br>李荣浩 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+2  那是你离开了北京的生活</br>薛之谦 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+3  岁月神偷</br>金玟岐 &nbsp &nbsp <a href="czzzl.html">详细内容</a>
+</div>
+<div id="b2">
+<div id="ziti">巅峰榜</div>
+<div id="zt">热歌</div>
+1  纸短情长</br>烟把儿乐队  <a href="czzzl.html">详细内容</a><br />
+2  不为谁而作的歌</br>林俊杰 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+3  戒烟</br>李荣浩 &nbsp &nbsp <a href="czzzl.html">详细内容</a>
+</div>
+<div id="b3">
+<div id="ziti">巅峰榜</div>
+<div id="zt">新歌</div>
+1  我乐意</br>许嵩 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+2  小半</br>陈粒 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+3  红色高跟鞋</br>蔡健雅  &nbsp <a href="czzzl.html">详细内容</a>
+</div>
+<div id="b4">
+<div id="ziti">巅峰榜</div>
+<div id="zt">原创</div>
+1  牧马城市</br>毛不易 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+2  爱我的人 谢谢你</br>薛之谦 &nbsp &nbsp <a href="czzzl.html">详细内容</a><br />
+3  骄傲</br>王源 &nbsp &nbsp  &nbsp <a href="czzzl.html">详细内容</a>
+</div>
+</div>
+<div id="footer">
+米米音乐网
+</div>
+</div>
+</body>
+</html>

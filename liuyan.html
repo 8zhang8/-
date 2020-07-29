@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>张金</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+		window.onload=function(){
+			var ele=document.querySelector("#picform>.form");
+			var length=ele.querySelectorAll("div").length;
+			var pic=function(offset){
+				ele.style.marginLeft=(-offset*100)+"%";
+				setTimeout(function(){
+					pic((offset+1)%length);
+				},3000);
+			};
+			pic(0);
+		};
+		
+    
+	</script>
+</head>
+
+
+<body>
+<div id="main3">
+
+
+<div id="header">
+<h1>米米音乐</h1>
+</div>
+<div id="nav"> 
+<ul>
+<li><a href="shouye.html">首页</a></li>
+<li><a href="geshou.html">歌手</a></li>
+<li><a href="gedan.html">歌单</a></li>
+<li><a href="zhuanji.html">专辑</a></li>
+<li><a href="mv.html">mv</a></li>
+<li><a href="liuyan.html">留言</a></li>
+<li><a href="lianxi.html">联系我们</a></li>
+<li><a href="denglu.html">登录</a></li>
+</ul>
+</div> 
+
+<div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="搜索音乐、歌手、MV..."><input type="submit" value="搜索">
+            </form>
+</div>
+<div id="pinglun">
+<div id="dpl"><h2>评论</h2><p>共17686条评论</p></div>
+<div id="pl">
+<img src="images/pl.jpg">
+<div id="xpl"></div>
+ <div id="pll"><img src="images/pl.png"><p>140</p><div id="button"><input type="submit" value="评论" class="send"></div></div>
+</div>
+<h2>精彩评论</h2>
+<div id="pl1">
+<img src="images/pl1.jpg">
+<h3>人见人爱的肉包包</h3>
+<p>:&nbsp一个可以操纵榜单的单主，大家要记住它</p>
+<div id="time1"><p>2017年9月26日</p><img src="images/time1.png"></div>
+</div>
+<div id="pl2">
+<img src="images/pl2.jpg">
+<h3>丑萌的猫</h3>
+<p>:&nbsp网易云每周二都会推这个华语速爆歌单，删掉旧歌，换成新歌</p>
+<div id="time2"><p>2017年9月26日</p><img src="images/time2.png"></div>
+</div>
+
+<div id="pl4">
+<img src="images/pl4.jpg">
+<h3>实名举报你可爱过度</h3>
+<p>:&nbsp我……第一次看到以亿为单位的收听量……忍不住点进来听一听～</p>
+<div id="time4"><p>2017年9月26日</p><img src="images/time3.png"></div>
+</div>
+<div id="pl5">
+<img src="images/pl5.jpg">
+<h3>A_风声鶴唳</h3>
+<p>:&nbsp以前觉得她是神话 遥不可及 现在觉得神话都是人创造的 触手可及.</p>
+<div id="time5"><p>2017年9月26日</p><img src="images/time4.png"></div>
+</div>
+<div id="pl6">
+<img src="images/pl6.jpg">
+<h3>原来你这么可爱</h3>
+<p>:&nbsp每个音乐人的努力到底是为了什么 自己的音乐被更多人听见吗还是为了什么东西</p>
+<div id="time6"><p>2017年9月26日</p><img src="images/time5.png"></div>
+</div>
+</div>
+<div id="yb1">
+<h3>喜欢这个歌单的人</h3>
+<div id="ybs">
+<div id="xtx1"><a href="gdnr.html"><img src="images/xtx1.jpg"></a></div>
+<div id="xtx2"><a href="gdnr.html"><img src="images/xtx2.jpg"></a></div>
+<div id="xtx3"><a href="gdnr.html"><img src="images/xtx3.jpg"></a></div>
+<div id="xtx4"><a href="gdnr.html"><img src="images/xtx4.jpg"></a></div>
+<div id="xtx5"><a href="gdnr.html"><img src="images/xtx5.jpg"></a></div>
+<div id="xtx6"><a href="gdnr.html"><img src="images/xtx6.jpg"></a></div>
+<div id="xtx7"><a href="gdnr.html"><img src="images/xtx7.jpg"></a></div>
+<div id="xtx8"><a href="gdnr.html"><img src="images/xtx8.jpg"></a></div>
+</div>
+<div id="ybx">
+<br /><br /><br />
+<h3>热门歌单</h3>
+<div id="rmgd1"><a href="gdnr.html"><img src="images/xtx9.jpg"></a><a href="gdnr.html"><h4>旧物派对 | 来逛TA的时空集装箱</h4><p>原创君</p></a></div>
+<div id="rmgd2"><a href="gdnr.html"><img src="images/xtx10.jpg"></a><a href="gdnr.html"><h4>无论怎样我们都要笑得灿烂</h4><p>海岛度假Santorini</p></a></div>
+<div id="rmgd3"><a href="gdnr.html"><img src="images/xtx11.jpg"></a><a href="gdnr.html"><h4>「以花为名，寄调管弦」</h4><p>佯佯得意</p></a></div>
+<div id="rmgd4"><a href="gdnr.html"><img src="images/xtx12.jpg"></a><a href="gdnr.html"><h4>每个人都是一颗独立的星球</h4><p>鹿北浠</p></a></div>
+<div id="rmgd5"><a href="gdnr.html"><img src="images/xtx13.jpg"></a><a href="gdnr.html"><h4>消暑静心钢琴</h4><p>洛伦兹力做功酶</p></a></div>
+</div>
+</div>
+
+
+
+
+
+
+<div id="footer6">
+米米音乐网
+</div>
+
+</body>
+</html>

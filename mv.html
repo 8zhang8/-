@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<title>张金</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+		window.onload=function(){
+			var ele=document.querySelector("#picform>.form");
+			var length=ele.querySelectorAll("div").length;
+			var pic=function(offset){
+				ele.style.marginLeft=(-offset*100)+"%";
+				setTimeout(function(){
+					pic((offset+1)%length);
+				},3000);
+			};
+			pic(0);
+		};
+		
+    
+	</script>
+</head>
+
+
+<body>
+<div id="main3">
+
+
+<div id="header">
+<h1>米米音乐</h1>
+</div>
+<div id="nav"> 
+<ul>
+<li><a href="shouye.html">首页</a></li>
+<li><a href="geshou.html">歌手</a></li>
+<li><a href="gedan.html">歌单</a></li>
+<li><a href="zhuanji.html">专辑</a></li>
+<li><a href="mv.html">mv</a></li>
+<li><a href="liuyan.html">留言</a></li>
+<li><a href="lianxi.html">联系我们</a></li>
+<li><a href="denglu.html">登录</a></li>
+</ul>
+</ul>
+</div> 
+
+<div id="search">
+            <form action="index.html" method="get">
+                <input type="search" placeholder="搜索音乐、歌手、MV..."><input type="submit" value="搜索">
+            </form>
+</div>
+<div id="mv">
+<video width="1080" height="340" controls="controls" autoplay="autoplay">
+  
+  <source src="mv.mp4" type="video/mp4" />
+ 
+</video>
+
+</div>
+  
+  <div id="xsmv">
+ <p>相似mv</p>
+ <div id="gs1"><img src="images/hcy.jpg"><div id="mx">华晨宇</div></div>
+ <div id="gs2"><img src="images/lrh.jpg"><div id="mx">李荣浩</div></div>
+ <div id="gs3"><img src="images/wyf.jpg"><div id="mx">吴亦凡</div></div>
+ <div id="gs4"><img src="images/zj.jpg"><div id="mx">张杰</div></div>
+</div>
+  
+
+<div id="footer5">
+米米音乐网
+</div>
+
+</body>
+</html>
